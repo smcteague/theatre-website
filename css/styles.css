@@ -1,0 +1,111 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 16px;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.header-row a:link, 
+.header-row a:visited, 
+#event-listing-read-more a:link,
+#event-listing-read-more a:visited,
+.footer a:link,
+.footer a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.header-logo-text{
+    font-size: 200%;
+}
+
+.header-nav-items{
+    font-size: 75%;
+}
+
+.hero-image{
+    background-image: url("/images/theater-image-background.png");
+    height: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text{
+    color: white;
+    font-size: 500%;
+    text-align: center;
+}
+
+.schedule-month-row{
+    font-size: 125%;
+    border: 1px solid gray;
+    background-color: rgba(241, 241, 241, 0.932);
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 10px 50px;
+}
+
+#event-listing-title{
+    font-size: 150%;
+}
+
+#event-listing-read-more{
+    font-size: 150%;
+    color: white;
+    border: 1px solid gray;
+    background-color: rgb(235,182,37);
+    width: 160px;
+    padding: 20px;
+}
+
+.event-listing-row-line{
+    border: 1px solid lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: auto;
+}
+
+.footer-section-row img{
+    height: 260px;
+    width: 260px;
+}
+
+#footer-section-title{
+    font-size: 250%;
+}
+
+#marker, 
+#envelope, 
+#phone-call,
+#facebook,
+#twitter,
+#youtube,
+#instagram{
+    filter: invert(100%);
+    height: 40px;
+    width: 40px;
+    padding: 10px; 
+}
+
